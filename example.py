@@ -5,6 +5,20 @@ from elsapy.elsprofile import ElsAuthor, ElsAffil
 from elsapy.elsdoc import FullDoc, AbsDoc
 from elsapy.elssearch import ElsSearch
 import json
+from bs4 import BeautifulSoup
+import requests
+
+
+def get_request(paper_url):
+    headers = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'}
+    response = requests.get(paper_url, headers=headers)
+
+    if response.status_code != 200:
+        print('Status code: ', response.status_code)
+        raise Exception('Failed to fetch web page!')
+    paper_doc = BeautifulSoup(response.text, 'xml')
+    return paper_doc
+
 
 ## Load configuration
 con_file = open("config.json")
@@ -17,15 +31,33 @@ client = ElsClient(config['apikey'])
 print(client.api_key)
 #Search on scopus
 doc_search = ElsSearch('hiring decisions', 'scopus')
-doc_search.execute(client)
+doc_search.execute(client, get_all=True)
+
+keyword_counter = {}
 
 for elem in doc_search.results:
+
+    # retrieve the identifier of a document
     id = int(elem['dc:identifier'][10:])
-    print(id)
-    scp_doc = AbsDoc(scp_id=id)
-    scp_doc.read(client)
-    print(scp_doc.title)
-    print(scp_doc.data)
+
+    # request to the elsevier APIs the abstract and the keywords of the paper
+    url = "https://api.elsevier.com/content/abstract/scopus_id/" + str(id) + '?apiKey=' + config['apikey']
+    document = get_request(url)
+
+    # Find and save all the keywords
+    tags = document.find_all('dn:author-keyword')
+    for tag in tags:
+        keyword = tag.text.lower()
+        if keyword in keyword_counter.keys():
+            keyword_counter[keyword] += 1
+        else:
+            keyword_counter[keyword] = 1
+
+keyword_counter = sorted(keyword_counter.items(), key=lambda x: x[1], reverse=True)
+print(keyword_counter)
+
+
+
 
 #
 # ## Scopus (Abtract) document example
