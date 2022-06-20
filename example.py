@@ -1,5 +1,3 @@
-"""An example program that uses the elsapy module"""
-
 from elsapy.elsclient import ElsClient
 from elsapy.elsprofile import ElsAuthor, ElsAffil
 from elsapy.elsdoc import FullDoc, AbsDoc
@@ -10,26 +8,27 @@ import requests
 
 
 def get_request(paper_url):
-    headers = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'}
+    headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
+                             'Chrome/91.0.4472.114 Safari/537.36'}
     response = requests.get(paper_url, headers=headers)
 
     if response.status_code != 200:
         print('Status code: ', response.status_code)
-        raise Exception('Failed to fetch web page!')
+        return None
     paper_doc = BeautifulSoup(response.text, 'xml')
     return paper_doc
 
 
-## Load configuration
+# Load configuration
 con_file = open("config.json")
 config = json.load(con_file)
 con_file.close()
 
-## Initialize client
+# Initialize client
 client = ElsClient(config['apikey'])
 
 print(client.api_key)
-#Search on scopus
+# Search on scopus
 doc_search = ElsSearch('hiring decisions', 'scopus')
 doc_search.execute(client, get_all=True)
 
@@ -44,6 +43,10 @@ for elem in doc_search.results:
     url = "https://api.elsevier.com/content/abstract/scopus_id/" + str(id) + '?apiKey=' + config['apikey']
     document = get_request(url)
 
+    if document is None:
+        break
+
+    print("document received")
     # Find and save all the keywords
     tags = document.find_all('dn:author-keyword')
     for tag in tags:
@@ -55,9 +58,6 @@ for elem in doc_search.results:
 
 keyword_counter = sorted(keyword_counter.items(), key=lambda x: x[1], reverse=True)
 print(keyword_counter)
-
-
-
 
 #
 # ## Scopus (Abtract) document example
