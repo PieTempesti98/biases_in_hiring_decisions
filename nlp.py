@@ -21,7 +21,7 @@ domain_related_stopwords = ['any', 'apply', 'applying', 'reapplying', 'given', '
                             'presented', 'provides', 'automatically', 'extracting', 'including', 'help', 'helps',
                             'explore',
                             'illustrate', 'achieve', 'better', 'method', 'methods', 'conclusion', 'conclusions',
-                            'study', 'nurse', 'nurses', 'surgeon', 'medical', 'objective', 'design']
+                            'study', 'nurse', 'nurses', 'surgeon', 'surgeons', 'medical', 'objective', 'design']
 
 
 def remove_stopwords(split_text):
@@ -48,8 +48,8 @@ with open('data/abstracts.txt', 'r') as file:
 abstracts = full_text.split('\n')
 keyphrases = {}
 
-# maximum length of the keyphrase (between 1 and 3)
-keyphrase_length = 3
+# maximum length of the keyphrase (between 1 and 2)
+keyphrase_length = 2
 
 for text in abstracts:
     # punctuation removal

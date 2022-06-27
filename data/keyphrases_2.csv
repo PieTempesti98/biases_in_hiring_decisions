@@ -9,7 +9,6 @@ setting,4
 letters recommendation,4
 interviews conducted,3
 employee innovation,3
-female surgeons,3
 peer production,3
 new patient,3
 men women,3
@@ -32,6 +31,7 @@ persongroup fit,2
 fit adaptive,2
 adaptive performance,2
 female students,2
+female,2
 main findings,2
 main,2
 pilot training,2
@@ -273,14 +273,14 @@ maledominated,1
 increasing,1
 purpose,1
 highlight principal,1
+aspiring female,1
 principal career,1
 career obstacles,1
 obstacles experienced,1
 experienced aspiring,1
-aspiring female,1
 highlight,1
-surgeons,1
 principal,1
+career,1
 narrative review,1
 embase databases,1
 review literature,1
@@ -288,8 +288,9 @@ literature position,1
 position career,1
 career barriers,1
 barriers female,1
-surgeons conducted,1
+female conducted,1
 conducted medline,1
+medline embase,1
 male contemporaries,1
 challenges overlooked,1
 explicit biases,1
@@ -299,6 +300,7 @@ negatively impacting,1
 impacting training,1
 training performance,1
 performance overall,1
+overall professional,1
 workforce integration,1
 examining workforce,1
 voicing accusations,1
@@ -557,28 +559,28 @@ presents aggregated,1
 literature shows,1
 employment disparity,1
 shows female,1
+female lower,1
 lower operative,1
 operative volumes,1
 volumes male,1
 volume dependent,1
 dependent new,1
-contribute employment,1
 clinical subspecialty,1
 data large,1
 large center,1
 center examined,1
 examined number,1
 number new,1
-referrals surgeons,1
-surgeons multivariate,1
+referrals multivariate,1
+multivariate linear,1
 surgeonmonths included,1
 included overall,1
+overall median,1
 interquartile range,1
 range iqr,1
 iqr adjusted,1
 adjusted analysis,1
 analysis female,1
-saw fewer,1
 matureaged job,1
 firm performance,1
 performance appraisal,1
@@ -800,7 +802,6 @@ trainees registered,1
 registered sent,1
 sent survey,1
 survey responded,1
-female,1
 voluntarily,1
 trainees,1
 registered,1
@@ -841,11 +842,11 @@ male lor,1
 letters male,1
 contained agentic,1
 contained active,1
-surgeons wrote,1
 agentic terms,1
 future success,1
 included sociocommunal,1
 sociocommunal phrases,1
+referenced spouses,1
 implicit associations,1
 fasted fed,1
 aesthetic labor,1
@@ -899,15 +900,15 @@ perceptions,1
 environment,1
 women,1
 responses scenarios,1
-faculty surgeons,1
+faculty senior,1
 interviews survey,1
 survey responses,1
-surgeons senior,1
 residents randomly,1
 randomly selected,1
 selected participate,1
 participate parallel,1
 parallel concurrent,1
+concurrent quantitative,1
 faculty residents,1
 saturation achieved,1
 professional advancement,1
@@ -915,8 +916,8 @@ gender disparity,1
 achieved individuals,1
 individuals interviewed,1
 interviewed female,1
-surgeons men,1
 women reported,1
+surgery identified,1
 overall participants,1
 promotion advancement,1
 concerns gaps,1
@@ -1404,8 +1405,8 @@ applicant letters,1
 male applicant,1
 letters significantly,1
 letters written,1
-calm delightful,1
 reviewed letters,1
+calm delightful,1
 recommendation significantly,1
 political ideology,1
 small significant,1
@@ -1872,9 +1873,9 @@ pursuing career,1
 career surgery,1
 surgery concurrently,1
 concurrently percentage,1
-percentage surgeons,1
-surgeons dualprofession,1
+percentage dualprofession,1
 dualprofession partnerships,1
+sought evaluate,1
 faculty single,1
 center surveyed,1
 surveyed variables,1
