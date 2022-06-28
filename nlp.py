@@ -21,7 +21,7 @@ domain_related_stopwords = ['any', 'apply', 'applying', 'reapplying', 'given', '
                             'presented', 'provides', 'automatically', 'extracting', 'including', 'help', 'helps',
                             'explore',
                             'illustrate', 'achieve', 'better', 'method', 'methods', 'conclusion', 'conclusions',
-                            'study', 'nurse', 'nurses', 'surgeon', 'surgeons', 'medical', 'objective', 'design']
+                            'study', 'nurse', 'nurses', 'surgeon', 'surgeons', 'medical', 'objective', 'design', 'hiring', 'decisions', 'decision']
 
 
 def remove_stopwords(split_text):
