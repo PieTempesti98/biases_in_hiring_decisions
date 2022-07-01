@@ -1,5 +1,5 @@
+Keyphrase,Count
 mental illness,5
-hiring decisions,5
 human resource,5
 gender bias,5
 social media,5
@@ -9,6 +9,7 @@ setting,4
 letters recommendation,4
 interviews conducted,3
 employee innovation,3
+child maltreatment,3
 peer production,3
 new patient,3
 men women,3
@@ -42,7 +43,7 @@ candidate,2
 contribution,2
 labor market,2
 impression management,2
-child maltreatment,2
+maltreatment disparities,2
 african american,2
 significant differences,2
 production sites,2
@@ -64,6 +65,7 @@ aims identify,2
 identify factors,2
 factors influencing,2
 green training,2
+higher levels,2
 resident candidates,2
 gendered differences,2
 differences exist,2
@@ -120,7 +122,7 @@ turnover intention,1
 milk pba,1
 milk consumption,1
 female earnings,1
-decision structure,1
+automated agents,1
 examine legal,1
 sensitive features,1
 legal framework,1
@@ -213,10 +215,10 @@ underlying assumptions,1
 task performance,1
 individual group,1
 grant applications,1
-hiring discrimination,1
 algorithmic evaluation,1
-recruiter nationality,1
 selected funding,1
+people higher,1
+recruiter nationality,1
 reverse engineering,1
 strategic leadership,1
 social categories,1
@@ -226,6 +228,7 @@ profits growth,1
 customer valuation,1
 adaptiveness customer,1
 valuation skills,1
+highly cited,1
 academicians alike,1
 intelligence interrelates,1
 interrelates employee,1
@@ -338,15 +341,15 @@ continues suffer,1
 inequality reasons,1
 models young,1
 moral primacy,1
-decision maker,1
-maker picks,1
 male academics,1
 information targets,1
-picks candidates,1
 genderassociated terms,1
 leads underrepresentation,1
+maker picks,1
+picks candidates,1
 candidates highest,1
 disparities science,1
+noisy estimate,1
 positions relevant,1
 positions,1
 relevant,1
@@ -421,8 +424,8 @@ resilience narratives,1
 cultural differences,1
 brain regions,1
 revealing burnout,1
-social norms,1
 transgender women,1
+social norms,1
 withinsubjects designs,1
 designs betweensubjects,1
 conducted,1
@@ -457,7 +460,6 @@ female cfos,1
 secondhand housing,1
 protected group,1
 ambidextrous acquisitions,1
-maltreatment disparities,1
 disproportionately affects,1
 experiencing poverty,1
 poverty structural,1
@@ -505,12 +507,10 @@ time limit,1
 differences found,1
 versus white,1
 relevance,1
+manipulation information,1
 automated augmented,1
 reactions automated,1
-decision processes,1
-manipulation information,1
 demanding situations,1
-correct decisions,1
 increasing tanf,1
 prioritized reduce,1
 reduce povertyrelated,1
@@ -532,6 +532,7 @@ code hosting,1
 hosting site,1
 site github,1
 performed scenariobased,1
+resume making,1
 scenariobased evaluation,1
 evaluation identify,1
 identify participants,1
@@ -546,7 +547,8 @@ identifying technical,1
 soft skill,1
 skill cues,1
 cues useful,1
-making hiring,1
+making online,1
+online production,1
 suggest visual,1
 contributions allows,1
 visual resume,1
@@ -620,8 +622,8 @@ foreign experience,1
 differences math,1
 choice modelling,1
 customer experience,1
-returns college,1
 interest fit,1
+returns college,1
 prior studies,1
 studies shown,1
 influence learners,1
@@ -683,7 +685,8 @@ artificial intelligence,1
 phenomenon outcomes,1
 goodness power,1
 profile features,1
-support hiring,1
+computer system,1
+affective meaning,1
 repertory grid,1
 instead employing,1
 simplify interpret,1
@@ -700,8 +703,8 @@ financial constraints,1
 constraints risk,1
 food waste,1
 ecodesign packaging,1
-decision makers,1
 people mental,1
+labour market,1
 apologize inconvenience,1
 editorinchief journal,1
 cause questions,1
@@ -816,8 +819,8 @@ concerned valued,1
 valued colleagues,1
 charge patients,1
 racial discrimination,1
-people analytics,1
 radical innovation,1
+people analytics,1
 sexual orientation,1
 head coaches,1
 business occupations,1
@@ -850,8 +853,8 @@ referenced spouses,1
 implicit associations,1
 fasted fed,1
 aesthetic labor,1
-brand evaluations,1
 training green,1
+brand evaluations,1
 nonfood items,1
 food context,1
 ethical leadership,1
@@ -931,9 +934,9 @@ perceived fairness,1
 percentage female,1
 female anaesthesiologists,1
 income differentials,1
-hiring promotion,1
 recruiting systems,1
 aienabled recruiting,1
+academic anaesthesiology,1
 software engineer,1
 salary offers,1
 female candidates,1
@@ -1007,9 +1010,9 @@ construct validity,1
 occupations characterized,1
 represented occupations,1
 turnover intentions,1
+socially distant,1
 feasibility concerns,1
 occupational stereotypes,1
-socially distant,1
 examined eventrelated,1
 state meal,1
 eventrelated potentials,1
@@ -1411,10 +1414,10 @@ recommendation significantly,1
 political ideology,1
 small significant,1
 teacher effectiveness,1
-selection decisions,1
 prospective teachersbackground,1
 size small,1
 recommendation surgical,1
+surgical fellowship,1
 notable disparities,1
 gender biased,1
 disparities training,1
@@ -1441,7 +1444,6 @@ references future,1
 future professional,1
 professional competency,1
 aspire leadership,1
-decision agent,1
 ageist attitudes,1
 development authorities,1
 workplace contexts,1
@@ -1449,9 +1451,10 @@ agricultural development,1
 shape outcomes,1
 overweight obese,1
 affective polarization,1
+opposing party,1
 international performance,1
-procedural justice,1
 error value,1
+procedural justice,1
 international entrepreneurial,1
 capability international,1
 network capability,1
@@ -1473,10 +1476,10 @@ suggests sleep,1
 sleep restriction,1
 reduces cognitive,1
 cognitive control,1
-influence decision,1
-decision making,1
+influence making,1
 making socialevaluative,1
 judgments threat,1
+threat based,1
 fourteen healthy,1
 facial photographs,1
 karolinska airport,1
@@ -1543,8 +1546,8 @@ male counterparts,1
 analyses controlling,1
 citation coverage,1
 political science,1
-position leaves,1
 occupational status,1
+position leaves,1
 workplace segregation,1
 graduating occupationally,1
 science sociology,1
@@ -1604,7 +1607,6 @@ insights policyrelevant,1
 policyrelevant implications,1
 implications bias,1
 bias training,1
-financial decisions,1
 offers wide,1
 wide support,1
 shift exploring,1
@@ -1613,6 +1615,7 @@ reality turn,1
 turn generates,1
 costs level,1
 relevant shed,1
+shed light,1
 offers insights,1
 intelligence capitalbackground,1
 educators urged,1
@@ -1641,7 +1644,6 @@ completed selfreport,1
 selfreport ratings,1
 anxiety factors,1
 greater discrimination,1
-higher levels,1
 levels spontaneous,1
 activity increases,1
 stronger functional,1
@@ -1985,8 +1987,8 @@ knowledge transfer,1
 sales force,1
 strategy configurations,1
 manufacturing strategy,1
-small medium,1
 predictive validity,1
+small medium,1
 instructional set,1
 stigma psychosocial,1
 public stigma,1
@@ -2001,9 +2003,9 @@ accountant cfos,1
 international experience,1
 women management,1
 proportion women,1
-interview bias,1
 womens representation,1
 required progress,1
+interview bias,1
 types biases,1
 academics outside,1
 efforts cases,1
@@ -2058,7 +2060,7 @@ new ties,1
 senior managers,1
 social networking,1
 cultures association,1
-caseworker organizational,1
+team cooperation,1
 male leaders,1
 marketing department,1
 leaders seek,1
