@@ -1,6 +1,6 @@
 nltk~=3.7
 pke~=2.0.0
-requests~=2.27.1
+requests~=2.31.1
 elsapy~=0.5.0
 beautifulsoup4~=4.10.0
 pandas~=1.4.1
